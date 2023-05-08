@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group14Suite">
+    <parameter name="browserTipi" value="chrome"></parameter>
+    <test name="test1">
+        <classes>
+            <class name="Proje._02"> </class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <classes>
+            <class name="Proje._03"> </class>
+        </classes>
+    </test>
+
+    <test name="test3">
+        <classes>
+            <class name="Proje._04"> </class>
+        </classes>
+    </test>
+
+    <test name="test4">
+        <classes>
+            <class name="Proje._05"> </class>
+        </classes>
+    </test>
+
+    <test name="test5">
+        <classes>
+            <class name="Proje._06"> </class>
+        </classes>
+    </test>
+
+    <test name="test6">
+        <parameter name="photoshop" value="Adobe Photoshop CS4"></parameter>
+        <classes>
+            <class name="Proje._07"> </class>
+        </classes>
+    </test>
+
+
+</suite>

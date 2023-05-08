@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mysuite">
+    <test  name="Test1">
+
+        <parameter name="aranacakKelime" value="ipod"></parameter>
+        <classes>
+            <class name="Gun07._01_WishList"></class>
+        </classes>
+    </test>
+</suite>

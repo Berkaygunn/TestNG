@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="test1">
+
+        <parameter name="aranacakKelime" value="mac"></parameter>
+        <parameter name="browserTipi" value="firefox"></parameter>
+        <classes>
+            <class name="Gun05._01_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+
+
+
+</suite>
